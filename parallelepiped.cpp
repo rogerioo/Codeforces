@@ -15,9 +15,9 @@ int main(int argc, char const *argv[]) {
     It's easyer if you draw a parallelepiped and give the areas a name
   */
 
-  x=sqrt(area1*area2/area3);
-  y=area3/x;
-  z=area1/x;
+  x=sqrt(area3*area2/area1);
+  z=area2/x;
+  y=area1/z;
 
   cout << 4 * (x+y+z) << endl;
 
